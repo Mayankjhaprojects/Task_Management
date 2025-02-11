@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+}
+#taskbar::-webkit-scrollbar{
+  display: none;
+}
+
+#alltaskscroll::-webkit-scrollbar{
+  display:none;
+}
+#adminpagescrollbar::-webkit-scrollbar{
+  display:none;
+}
